@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: beige;
 }
 
 main {
@@ -17,4 +18,25 @@ article {
 aside {
     flex: 1;
     overflow-y: auto;
+    background-color: beige;
+}
+
+header {
+    background-color: aliceblue;
+}
+
+a {
+    color: black;
+}
+  
+a:visited {
+    color: black;
+}
+  
+a:hover {
+    color: cyan;
+}
+  
+a:active {
+    color: cyan;
 }
