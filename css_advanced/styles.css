@@ -1,0 +1,180 @@
+html {
+  scroll-behavior: smooth;
+
+}
+
+body, h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 90px;
+  
+}
+
+.container {
+  background-image: url('./images/Object.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+  margin: auto;
+  color: rgb(277,277,277);
+  height: fit-content;
+  max-width: 1000px;
+}
+
+.company-logo {
+  margin: auto 0;
+  
+}
+
+/* .nav-links a{
+  text-decoration: none;
+} */
+
+/*button*/
+.btn {
+  background-color: #C271FF;
+  color: rgb(277,277,277);
+  border: none;
+  padding: 18px 32px;
+  border-radius: 25px;
+  margin-top: 25;
+  font-weight: bold;
+  font-size: large;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+
+
+/*SECTIONS*/
+
+.hero-section div {
+  display: flex;
+  padding-top: 100px;
+}
+
+.item {
+
+
+}
+
+.get-schooled {
+  text-align: center;
+}
+
+.lfp {
+  text-align: center;
+  margin: auto;
+  padding-top: 80px;
+}
+
+
+
+.quote {
+  background-color: #C271FF;
+  display: flex;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.videos {
+ text-align: center
+}
+
+.membership {
+  text-align: center;
+  background-color: #071629;
+  color: white;
+}
+
+.faq {
+  display: flex;
+}
+
+.footer {
+  background-color: #071629;
+}
+
+.global-block {
+  text-align: center;
+}
+
+.faq h2 {
+  text-align: center;
+}
+
+.row-block-main {
+  display: flex;
+}
+
+
+  /* .header {
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font: bolder;
+    float: right;
+    margin-top: 30px;
+   margin-right: 250px;
+  }
+  #logo {
+    margin-left: 80px;
+    margin-top: 30px;
+  }
+  
+    .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: black;
+} */
+
+
+    
+/* Media queries */
+/* @media screen and (max-width: 767px) {
+    header {
+      padding: 10px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav li {
+      margin: 10px 0;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    main {
+      max-width: 600px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    main {
+      max-width: 1000px;
+    }
+  } */
